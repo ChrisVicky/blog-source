@@ -30,3 +30,5 @@ cover: /myimg/Image-Bed.jpg
 ## Program and automation
 * A [Program](https://github.com/ChrisVicky/image-bed-go) written in Golang is then conducted with [Github Api Wrapper](github.com/google/go-github/v55/github), which basically does one thing: *Write an image, stored locally, to github and return its url.*
 * To embed the Process with my workflow -- using vim, I slightly modify the [img-paste plugin](https://github.com/ChrisVicky/img-paste.vim) to use the script.
+* Illustration:
+![vim-image-bed-integration](/myimg/vim-image-bed-integration.gif)
